@@ -49,7 +49,7 @@ ga_fish = GeneticAlgorithm(fit_fun=None,
 
 
 
-minds,colors = load_minds_from_file(namefile='framesf_f/best_food_eaters.json',pop_size=n_pop_fish)
+minds,colors = load_minds_from_file(namefile='best_food_eaters.json',pop_size=n_pop_fish)
 ga_fish.init_population(minds)
 #istanciate the Fish objects starting from the "minds"
 fish_pop = new_fish_pop(minds,colors)
@@ -97,7 +97,7 @@ ga_food = GeneticAlgorithm(fit_fun=None,
                       ranges=ranges)
 
 
-minds = load_food_minds_from_file(namefile='framesf_f/best_foods.json',pop_size=n_pop_fish)
+minds = load_food_minds_from_file(namefile='best_foods.json',pop_size=n_pop_fish)
 ga_food.init_population(minds)
 #minds = ga_food.original_space_speace()
 #istanciate the Fish objects starting from the "minds"
@@ -119,7 +119,7 @@ foods = np.zeros(5)
 #stat for the food
 lifetimes = np.zeros(5)
 
-folder = 'advanced_frames'
+folder = '.'
 
 for i in range(max_gen):
     

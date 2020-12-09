@@ -20,9 +20,9 @@ size_w1,size_w2 = size_w[:2][::-1]
 s1= 100
 s2 = 100
 
-food_file = "advanced_frames/best_foods.json" #the best surviving food
+food_file = "./best_foods.json" #the best surviving food
 
-predators_file = "advanced_frames/best_food_eaters.json" #the best trained with moving energy
+predators_file = "./best_food_eaters.json" #the best trained with moving energy
 fish_file="./current5best_individuals.json" #trained fishes on food still
 
 #next is to evolve the foods and the fishes again simultanuosly

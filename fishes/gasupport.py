@@ -56,7 +56,7 @@ def plot_fitness(list_attributes,new_values,names_attributes,figname = 'curves.j
     plt.close()
     return (list_attributes )
     
-def update_best_fish_file(fishes,generation,num_best=5,name='best_individuals'):
+def update_best_fish_file(fishes,generation,num_best=5,name='best_food_eaters'):
     try:
         with open(name+".json", "r") as read_file:
             data = json.load(read_file)
@@ -103,7 +103,7 @@ def update_best_fish_file(fishes,generation,num_best=5,name='best_individuals'):
                 break
     with open(name+".json", "w") as write_file:
         json.dump(data, write_file)
-def update_best_food_file(foods,generation,num_best=5,name='best_individuals'):
+def update_best_food_file(foods,generation,num_best=5,name='best_foods'):
     try:
         with open(name+".json", "r") as read_file:
             data = json.load(read_file)
