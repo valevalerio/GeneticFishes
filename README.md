@@ -1,20 +1,20 @@
 # GeneticFishes
-## An old exercize. 
+## An old exercise. 
 Used to apply a rough Genetic Algorithm Optimizer to train shallow NeuralNetworks inside each creature based on their goal. 
 check here 
 
 [![GenFISH](http://i3.ytimg.com/vi/DngpADQ740Y/hqdefault.jpg)](https://www.youtube.com/watch?v=DngpADQ740Y "GenFishes")
 
-The fishes counsume energy to move and get energy from eating. 
+The fishes consume energy to move and get energy from eating. 
 The food just wants to survive :)
 Those are the objective inducted by the fitness functions.
 
 ## Commands
-In order to obtain similar and more accurate simulations as the one in the video is enougth to run: 
+In order to obtain similar and more accurate simulations as the one in the video is enough to run: 
 
 >python GAapplied.py 
 
-will generate the weights for the neural networks of the fishes. it takes time for them to learn, standart epochs are 300, simulation time is 200 ticks.
+will generate the weights for the neural networks of the fishes. it takes time for them to learn, standard epochs are 300, simulation time is 200 ticks.
 
 >python python foodGAapplied.py 
 
