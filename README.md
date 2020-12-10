@@ -3,7 +3,7 @@
 Used to apply a rough Genetic Algorithm Optimizer to train shallow NeuralNetworks inside each creature based on their goal. 
 check here 
 
-[![GenFISH](http://i3.ytimg.com/vi/DngpADQ740Y/hqdefault.jpg)](https://www.youtube.com/watch?v=DngpADQ740Y "GenFishes")
+[![GenFISH](http://img.youtube.com/vi/DngpADQ740Y/0.jpg)](https://www.youtube.com/watch?v=DngpADQ740Y "GenFishes")
 
 The fishes consume energy to move and get energy from eating. 
 The food just wants to survive :)
